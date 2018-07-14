@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="local_value_3" table="x_23880_every_conn_value_mapping">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="value_1" table="x_23880_every_conn_ec_lookups">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Local Value 3</column_label>
+        <column_label>Value 1</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>local_value_3</element>
+        <element>value_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -36,7 +36,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_23880_every_conn_value_mapping</name>
+        <name>x_23880_every_conn_ec_lookups</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>lukasz.piech</sys_created_by>
-        <sys_created_on>2018-07-14 13:37:29</sys_created_on>
-        <sys_id>47a8462ddb1793007f3873278c961912</sys_id>
+        <sys_created_on>2018-07-14 14:22:03</sys_created_on>
+        <sys_id>7fc2dee5db5793007f3873278c961995</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Local Value 3</sys_name>
+        <sys_name>Value 1</sys_name>
         <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
-        <sys_update_name>sys_dictionary_x_23880_every_conn_value_mapping_local_value_3</sys_update_name>
+        <sys_update_name>sys_dictionary_x_23880_every_conn_ec_lookups_value_1</sys_update_name>
         <sys_updated_by>lukasz.piech</sys_updated_by>
-        <sys_updated_on>2018-07-14 13:37:29</sys_updated_on>
+        <sys_updated_on>2018-07-14 14:22:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
