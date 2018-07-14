@@ -14,5 +14,19 @@
         <element label="Summary" max_length="255" name="summary" type="string"/>
         <element label="Target Impact" max_length="40" name="target_impact" type="string"/>
         <element label="Target Urgency" max_length="40" name="target_urgency" type="string"/>
+        <element choice="3" default="1" label="Transaction" max_length="40" name="transaction" type="choice">
+            <choice>
+                <element label="Acknowledgement" value="2"/>
+                <element label="Cancell" value="8"/>
+                <element label="Closure" value="7"/>
+                <element label="Error" value="10"/>
+                <element label="In Progress" value="4"/>
+                <element label="Resolution" value="5"/>
+                <element label="Resolution Rejection" value="6"/>
+                <element label="Return" value="9"/>
+                <element label="Submit Request" value="1"/>
+                <element label="Update" value="3"/>
+            </choice>
+        </element>
     </element>
 </database>
