@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Every Connect">4c588a2ddb1793007f3873278c961920</application>
+        <filter/>
+        <name>Value Mappings</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_23880_every_conn.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>lukasz.piech</sys_created_by>
+        <sys_created_on>2018-07-14 13:35:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8588a2ddb1793007f3873278c961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Value Mappings</sys_name>
+        <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
+        <sys_update_name>sys_ui_module_c8588a2ddb1793007f3873278c961922</sys_update_name>
+        <sys_updated_by>lukasz.piech</sys_updated_by>
+        <sys_updated_on>2018-07-14 13:35:30</sys_updated_on>
+        <table>x_23880_every_conn_value_mapping</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
