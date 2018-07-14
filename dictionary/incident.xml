@@ -9,5 +9,6 @@
                 <element label="Service Requester" value="2"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="transaction_id" max_length="40" name="x_23880_every_conn_transaction_id" type="string"/>
     </element>
 </database>
