@@ -169,6 +169,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>12</position>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 17:03:56</sys_created_on>
+            <sys_id>55087e61db1b93007f3873278c9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 17:03:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
