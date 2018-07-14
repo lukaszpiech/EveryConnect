@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inbound Transaction" max_length="40" name="x_23880_every_conn_inbound_transaction" type="collection">
+        <element label="Impact" max_length="40" name="impact" type="string"/>
+        <element choice="3" default="1" label="Status" max_length="40" name="status" type="integer">
+            <choice>
+                <element label="Completed" value="2"/>
+                <element label="Error" value="3"/>
+                <element label="Pending" value="1"/>
+                <element label="Reprocess" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

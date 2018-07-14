@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_23880_every_conn_inbound_transaction" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_23880_every_conn_inbound_transaction</name>
+            <sequence/>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 13:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>500b4aeddb1793007f3873278c961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 13:47:32</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_23880_every_conn_inbound_transaction</name>
+            <sequence/>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 13:47:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b30bcaeddb1793007f3873278c961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 13:47:44</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_23880_every_conn_inbound_transaction</name>
+            <sequence/>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 13:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d1b8aeddb1793007f3873278c961951</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 13:47:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reprocess</label>
+            <language>en</language>
+            <name>x_23880_every_conn_inbound_transaction</name>
+            <sequence/>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 13:48:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>822b02eddb1793007f3873278c961993</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 13:48:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_23880_every_conn_inbound_transaction</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-14 13:47:29</sys_created_on>
+            <sys_id>bb0b4e2ddb1793007f3873278c9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
+            <sys_update_name>sys_choice_x_23880_every_conn_inbound_transaction_status</sys_update_name>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-14 13:47:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
