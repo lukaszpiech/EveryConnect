@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lukasz.piech</sys_created_by>
+        <sys_created_on>2018-07-14 14:34:26</sys_created_on>
+        <sys_id>1fc552e9db5793007f3873278c96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_23880_every_conn_ec_urgency_lookup.x_23880_every_conn.user</sys_name>
+        <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
+        <sys_security_acl display_value="x_23880_every_conn_ec_urgency_lookup">13c552e9db5793007f3873278c961989</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1fc552e9db5793007f3873278c96198b</sys_update_name>
+        <sys_updated_by>lukasz.piech</sys_updated_by>
+        <sys_updated_on>2018-07-14 14:34:26</sys_updated_on>
+        <sys_user_role display_value="x_23880_every_conn.user" name="x_23880_every_conn.user">0c28062ddb1793007f3873278c9619f8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

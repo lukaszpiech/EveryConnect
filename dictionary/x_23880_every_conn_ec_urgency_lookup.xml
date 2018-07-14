@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="EC Urgency Lookup" max_length="40" name="x_23880_every_conn_ec_urgency_lookup" type="collection">
+        <element label="Remote Value 1" max_length="40" name="remote_value_1" type="string"/>
+        <element label="Value 1" max_length="40" name="value_1" type="string"/>
+    </element>
+</database>

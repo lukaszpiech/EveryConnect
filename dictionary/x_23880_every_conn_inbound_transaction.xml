@@ -2,6 +2,7 @@
 <database>
     <element label="Inbound Transaction" max_length="40" name="x_23880_every_conn_inbound_transaction" type="collection">
         <element label="Source Impact" max_length="40" name="source_impact" type="string"/>
+        <element label="Source Urgency" max_length="40" name="source_urgency" type="string"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" type="integer">
             <choice>
                 <element label="Completed" value="2"/>
@@ -10,6 +11,8 @@
                 <element label="Reprocess" value="4"/>
             </choice>
         </element>
+        <element label="Summary" max_length="255" name="summary" type="string"/>
         <element label="Target Impact" max_length="40" name="target_impact" type="string"/>
+        <element label="Target Urgency" max_length="40" name="target_urgency" type="string"/>
     </element>
 </database>

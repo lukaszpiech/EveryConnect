@@ -33,25 +33,28 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 var gr = new GlideRecord('incident');
-var lookup= new GlideRecord('x_23880_every_conn_value_mapping');
+//var lookup= new GlideRecord('x_23880_every_conn_value_mapping');
 
 
 gr.initialize(); 
 
 
 gr.short_description = current.status; 
+gr.impact = current.target_impact;
+gr.urgency = current.target_urgency;
+gr.short_description = current.summary;
 
-lookup.addQuery('u_building_code',current.impact);
-lookup.query();
-
-
-if(lookup.next()){
-
-
-current.setDisplayValue('location',lookup.getDisplayValue());
+//lookup.addQuery('u_building_code',current.impact);
+//lookup.query();
 
 
-}
+//if(lookup.next()){
+
+
+//current.setDisplayValue('location',lookup.getDisplayValue());
+
+
+//}
 
 gr.insert(); //insert the new record
 
@@ -62,7 +65,7 @@ gr.insert(); //insert the new record
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c18bc221db5793007f3873278c961959</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Submit Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
@@ -70,9 +73,9 @@ gr.insert(); //insert the new record
         <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
         <sys_update_name>sys_script_c18bc221db5793007f3873278c961959</sys_update_name>
         <sys_updated_by>lukasz.piech</sys_updated_by>
-        <sys_updated_on>2018-07-14 14:10:41</sys_updated_on>
+        <sys_updated_on>2018-07-14 14:43:25</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=c18bc221db5793007f3873278c961959"/>
 </record_update>

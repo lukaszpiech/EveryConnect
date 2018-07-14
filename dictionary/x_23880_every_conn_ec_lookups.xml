@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="update_synch=true" extends="dl_matcher" label="EC Impact Lookup" max_length="40" name="x_23880_every_conn_ec_lookups" type="collection">
-        <element label="Field" max_length="40" name="field" type="string"/>
         <element default="40" label="Remote Value 1" max_length="40" name="remote_value_1" type="string"/>
         <element label="Value 1" max_length="40" name="value_1" type="string"/>
     </element>
