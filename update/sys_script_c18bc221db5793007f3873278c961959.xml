@@ -36,15 +36,15 @@
 var gr = new GlideRecord('incident');
 var lookup= new GlideRecord('sys_user');
 
-
 gr.initialize(); 
-
 
 gr.short_description = current.status; 
 gr.impact = current.target_impact; 
 gr.urgency = current.target_urgency;
 gr.short_description = current.summary; //summary - need to trim if longer
-
+gr.x_23880_every_conn_external_id = current.external_id;
+gr.x_23880_every_conn_external_system = current.external_system;
+gr.x_23880_every_conn_role = '1';
 lookup.addQuery('email',current.caller_email); //lookup user by email
 lookup.query();
 	if(lookup.next()){
@@ -60,7 +60,7 @@ gr.insert(); //insert the new record
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c18bc221db5793007f3873278c961959</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Submit Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
@@ -68,7 +68,7 @@ gr.insert(); //insert the new record
         <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
         <sys_update_name>sys_script_c18bc221db5793007f3873278c961959</sys_update_name>
         <sys_updated_by>lukasz.piech</sys_updated_by>
-        <sys_updated_on>2018-07-14 15:35:14</sys_updated_on>
+        <sys_updated_on>2018-07-14 16:00:33</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

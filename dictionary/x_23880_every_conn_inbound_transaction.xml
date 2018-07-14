@@ -3,6 +3,8 @@
     <element label="Inbound Transaction" max_length="40" name="x_23880_every_conn_inbound_transaction" type="collection">
         <element label="Caller Email" max_length="255" name="caller_email" type="string"/>
         <element label="CI" max_length="255" name="ci" type="string"/>
+        <element label="External ID" max_length="40" name="external_id" type="string"/>
+        <element label="External System" max_length="40" name="external_system" type="string"/>
         <element label="Source Impact" max_length="40" name="source_impact" type="string"/>
         <element label="Source Urgency" max_length="40" name="source_urgency" type="string"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" type="integer">
