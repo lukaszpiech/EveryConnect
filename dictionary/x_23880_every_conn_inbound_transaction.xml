@@ -7,6 +7,7 @@
         <element label="External ID" max_length="40" name="external_id" type="string"/>
         <element label="External System" max_length="40" name="external_system" type="string"/>
         <element label="Notes" max_length="8000" name="notes" type="string"/>
+        <element label="Source Category" max_length="40" name="source_category" type="string"/>
         <element label="Source Impact" max_length="40" name="source_impact" type="string"/>
         <element label="Source Urgency" max_length="40" name="source_urgency" type="string"/>
         <element label="SrvNow ID" max_length="40" name="srvnow_id" type="string"/>
@@ -19,6 +20,7 @@
             </choice>
         </element>
         <element label="Summary" max_length="255" name="summary" type="string"/>
+        <element label="Target Category" max_length="40" name="target_category" type="string"/>
         <element label="Target Impact" max_length="40" name="target_impact" type="string"/>
         <element label="Target Urgency" max_length="40" name="target_urgency" type="string"/>
         <element choice="3" default="1" label="Transaction" max_length="40" name="transaction" type="choice">
