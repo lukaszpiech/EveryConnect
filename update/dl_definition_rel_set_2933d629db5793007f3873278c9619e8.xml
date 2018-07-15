@@ -2,7 +2,7 @@
 <record_update table="dl_definition_rel_set">
     <dl_definition_rel_set action="INSERT_OR_UPDATE">
         <always_replace>false</always_replace>
-        <dl_definition display_value="Impact Lookup">bb929ee5db5793007f3873278c96195f</dl_definition>
+        <dl_definition display_value="EC Impact Lookup">bb929ee5db5793007f3873278c96195f</dl_definition>
         <matcher_table>x_23880_every_conn_ec_lookups</matcher_table>
         <matcher_table_field>value_1</matcher_table_field>
         <source_table>x_23880_every_conn_inbound_transaction</source_table>

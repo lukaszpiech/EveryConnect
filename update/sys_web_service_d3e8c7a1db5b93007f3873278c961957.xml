@@ -15,21 +15,21 @@ inbound.source_impact = request.impact;
 	
 inbound.insert(); //insert the new record
 
-	response.response=inbound.srvnow_id;
+	response.response="OK";
 })(request, response);]]></script>
         <short_description/>
         <sys_class_name>sys_web_service</sys_class_name>
         <sys_created_by>lukasz.piech</sys_created_by>
         <sys_created_on>2018-07-14 18:20:44</sys_created_on>
         <sys_id>d3e8c7a1db5b93007f3873278c961957</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>inbound</sys_name>
         <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
         <sys_update_name>sys_web_service_d3e8c7a1db5b93007f3873278c961957</sys_update_name>
         <sys_updated_by>lukasz.piech</sys_updated_by>
-        <sys_updated_on>2018-07-14 19:29:06</sys_updated_on>
+        <sys_updated_on>2018-07-14 19:30:57</sys_updated_on>
         <wsdl>https://dev47087.service-now.com/x_23880_every_conn_inbound.do?WSDL</wsdl>
         <wsdl_compliance>false</wsdl_compliance>
     </sys_web_service>
