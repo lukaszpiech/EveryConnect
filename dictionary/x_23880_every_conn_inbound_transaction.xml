@@ -34,5 +34,6 @@
                 <element label="Update" value="3"/>
             </choice>
         </element>
+        <element label="UpdateNote" max_length="8000" name="updatenote" type="string"/>
     </element>
 </database>

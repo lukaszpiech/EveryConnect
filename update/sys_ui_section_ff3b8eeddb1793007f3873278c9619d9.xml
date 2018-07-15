@@ -197,6 +197,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update</element>
+            <position>14</position>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-15 05:42:55</sys_created_on>
+            <sys_id>cfb52975db53d3007f3873278c96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-15 05:42:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>updatenote</element>
+            <position>15</position>
+            <sys_created_by>lukasz.piech</sys_created_by>
+            <sys_created_on>2018-07-15 06:54:58</sys_created_on>
+            <sys_id>f6363539db93d3007f3873278c9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_updated_by>lukasz.piech</sys_updated_by>
+            <sys_updated_on>2018-07-15 06:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
