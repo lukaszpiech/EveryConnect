@@ -3,6 +3,7 @@
     <element label="Inbound Transaction" max_length="40" name="x_23880_every_conn_inbound_transaction" type="collection">
         <element label="Caller Email" max_length="255" name="caller_email" type="string"/>
         <element label="CI" max_length="255" name="ci" type="string"/>
+        <element label="Close Notes" max_length="4000" name="close_notes" type="string"/>
         <element label="External ID" max_length="40" name="external_id" type="string"/>
         <element label="External System" max_length="40" name="external_system" type="string"/>
         <element label="Notes" max_length="8000" name="notes" type="string"/>

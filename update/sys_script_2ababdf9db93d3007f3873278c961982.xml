@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_23880_every_conn_inbound_transaction</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_23880_every_conn_inbound_transaction">transaction=4^status=1^EQ<item endquery="false" field="transaction" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>In Progress</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var gr = new GlideRecord('incident');
+
+gr.addQuery('number', current.srvnow_id);
+//gr.addQuery('x_23880_every_conn_external_id', current.external_id);
+gr.query();   
+
+
+if (gr.next()){   
+var upd=current.updatenote.toString();
+gr.work_notes=upd;
+gr.state='2';
+//gr.work_notes.setJournalEntry(current.updatenote);
+gr.x_23880_every_conn_transaction_id = current.sys_id;
+gr.update();
+					}
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>lukasz.piech</sys_created_by>
+        <sys_created_on>2018-07-15 07:14:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ababdf9db93d3007f3873278c961982</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>In Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
+        <sys_update_name>sys_script_2ababdf9db93d3007f3873278c961982</sys_update_name>
+        <sys_updated_by>lukasz.piech</sys_updated_by>
+        <sys_updated_on>2018-07-15 07:15:46</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ababdf9db93d3007f3873278c961982"/>
+</record_update>
