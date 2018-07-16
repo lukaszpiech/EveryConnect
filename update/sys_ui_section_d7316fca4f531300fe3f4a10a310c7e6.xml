@@ -1,29 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="ff3b8eeddb1793007f3873278c9619d9" sys_domain="global" table="x_23880_every_conn_inbound_transaction" version="3" view="">
+    <sys_ui_section caption="Basic Fields" section_id="d7316fca4f531300fe3f4a10a310c7e6" sys_domain="global" table="x_23880_every_conn_inbound_transaction" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>summary</element>
             <position>0</position>
             <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
             <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>1b31efca4f531300fe3f4a10a310c720</sys_id>
+            <sys_id>1331efca4f531300fe3f4a10a310c727</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
             <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
             <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>srvnow_id</element>
+            <element>notes</element>
             <position>1</position>
             <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
             <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>9b31efca4f531300fe3f4a10a310c720</sys_id>
+            <sys_id>9331efca4f531300fe3f4a10a310c727</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
+            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
+            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>updatenote</element>
+            <position>2</position>
+            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
+            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
+            <sys_id>1731efca4f531300fe3f4a10a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
+            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
+            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>3</position>
+            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
+            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
+            <sys_id>9731efca4f531300fe3f4a10a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
             <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
             <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
             <sys_user/>
@@ -31,82 +59,68 @@
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
             <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>1f31efca4f531300fe3f4a10a310c720</sys_id>
+            <sys_id>1b31efca4f531300fe3f4a10a310c727</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
             <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
             <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>transaction</element>
-            <position>3</position>
-            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
-            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>9f31efca4f531300fe3f4a10a310c720</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
-            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
-            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>external_system</element>
-            <position>4</position>
-            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
-            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>1331efca4f531300fe3f4a10a310c721</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
-            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
-            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>external_id</element>
+            <element>caller_email</element>
             <position>5</position>
             <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
             <sys_created_on>2018-07-16 09:20:59</sys_created_on>
-            <sys_id>9331efca4f531300fe3f4a10a310c721</sys_id>
+            <sys_id>9b31efca4f531300fe3f4a10a310c727</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">ff3b8eeddb1793007f3873278c9619d9</sys_ui_section>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
+            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
+            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci</element>
+            <position>6</position>
+            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
+            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
+            <sys_id>1f31efca4f531300fe3f4a10a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Fields" display_value="Basic Fields" name="x_23880_every_conn_inbound_transaction" sys_domain="global" view="Default view">d7316fca4f531300fe3f4a10a310c7e6</sys_ui_section>
             <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
             <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Basic Fields</caption>
             <header>false</header>
             <name>x_23880_every_conn_inbound_transaction</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
-            <sys_created_by>lukasz.piech</sys_created_by>
-            <sys_created_on>2018-07-14 13:48:19</sys_created_on>
+            <sys_created_by>lukasz@lukaszpiech.pl</sys_created_by>
+            <sys_created_on>2018-07-16 09:20:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ff3b8eeddb1793007f3873278c9619d9</sys_id>
+            <sys_id>d7316fca4f531300fe3f4a10a310c7e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_23880_every_conn_inbound_transaction</sys_name>
+            <sys_name>Basic Fields</sys_name>
             <sys_overrides/>
             <sys_package display_value="Every Connect" source="x_23880_every_conn">7f184aa9dbd393007f3873278c96194f</sys_package>
             <sys_policy/>
             <sys_scope display_value="Every Connect">7f184aa9dbd393007f3873278c96194f</sys_scope>
-            <sys_update_name>sys_ui_section_ff3b8eeddb1793007f3873278c9619d9</sys_update_name>
-            <sys_updated_by>lukasz.piech</sys_updated_by>
-            <sys_updated_on>2018-07-14 13:48:19</sys_updated_on>
+            <sys_update_name>sys_ui_section_d7316fca4f531300fe3f4a10a310c7e6</sys_update_name>
+            <sys_updated_by>lukasz@lukaszpiech.pl</sys_updated_by>
+            <sys_updated_on>2018-07-16 09:20:59</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

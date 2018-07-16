@@ -30,7 +30,7 @@ inbound.insert(); //insert the new record
         <sys_update_name>sys_web_service_d3e8c7a1db5b93007f3873278c961957</sys_update_name>
         <sys_updated_by>lukasz.piech</sys_updated_by>
         <sys_updated_on>2018-07-14 19:30:57</sys_updated_on>
-        <wsdl>https://dev47087.service-now.com/x_23880_every_conn_inbound.do?WSDL</wsdl>
+        <wsdl>https://dev53641.service-now.com/x_23880_every_conn_inbound.do?WSDL</wsdl>
         <wsdl_compliance>false</wsdl_compliance>
     </sys_web_service>
 </record_update>
